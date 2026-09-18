@@ -11,7 +11,7 @@ agentes, grafica sus curvas de aprendizaje y compara su desempeño.
 > Por eso las recompensas son negativas: **más cercanas a 0 = mejor** (llegó a la meta en menos
 > pasos); **−200 = fracaso** (nunca llegó).
 
-![El coche alcanzando la bandera en el entorno MountainCar-v0](<img width="1230" height="892" alt="Simulación_Agente_Q-Learning_Tabular" src="https://github.com/user-attachments/assets/e4b4eaea-e72f-4cad-89c0-f99090783cff" />)
+![El coche alcanzando la bandera en el entorno MountainCar-v0]<img width="1230" height="892" alt="Simulación_Agente_Q-Learning_Tabular" src="https://github.com/user-attachments/assets/e4b4eaea-e72f-4cad-89c0-f99090783cff" />
 
 ---
 
