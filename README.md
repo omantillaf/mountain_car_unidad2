@@ -149,7 +149,8 @@ periódicamente (6) los pesos se copian a la red objetivo.
 
 ## Evidencia del mejor resultado — Q-Learning tabular
 
-![Curva de recompensa del agente Q-Learning tabular](assets/curva_qlearning.png)
+![Curva de recompensa del agente Q-Learning tabular]<img width="862" height="470" alt="curva_qlearning" src="https://github.com/user-attachments/assets/ea001543-5dad-4d82-95bc-e921e818613a" />
+
 
 **Progreso registrado durante el entrenamiento (promedio de los últimos 500 episodios):**
 
@@ -173,7 +174,8 @@ bandera. La discretización 20×20 resultó suficiente para capturar la dinámic
 
 ## Evidencia del mejor resultado — DQN
 
-![Curva de recompensa del agente DQN](assets/curva_dqn.png)
+![Curva de recompensa del agente DQN]<img width="862" height="470" alt="curva_dqn" src="https://github.com/user-attachments/assets/43bcaa94-df65-49a0-bf60-abea3cb10616" />
+
 
 **Mejor resultado medido:** el **mejor episodio individual fue −166** (episodio 272). De los 300
 episodios, solo **6 superaron −200**, todos en la parte final del entrenamiento (episodios 271–299);
