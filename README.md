@@ -126,7 +126,8 @@ pip install tensorflow        # solo para el agente DQN
 
 Ciclo **estado → acción → recompensa → actualización**:
 
-![Esquema del ciclo de entrenamiento de Q-Learning](assets/diagrama_qlearning.svg)
+![Esquema del ciclo de entrenamiento de Q-Learning]<img width="1476" height="855" alt="diagrama qlearning" src="https://github.com/user-attachments/assets/9e0c97bb-d912-46c0-a754-a0f06166dde7" />
+
 
 El agente consulta la Tabla Q para decidir (1) la acción; el entorno devuelve (2) el nuevo estado y
 (3) la recompensa; con esos datos el agente (4) actualiza la Tabla Q mediante la ecuación de
@@ -136,7 +137,8 @@ Bellman. El ciclo se repite en cada paso de cada episodio.
 
 Ciclo con **replay buffer, red objetivo y actualización de Bellman**:
 
-![Esquema del ciclo de entrenamiento de DQN](assets/diagrama_dqn.svg)
+![Esquema del ciclo de entrenamiento de DQN]<img width="1731" height="800" alt="diagrama dqn" src="https://github.com/user-attachments/assets/e961122f-c5f3-49ce-aa25-6da1bb2266ef" />
+
 
 La red principal (1) ejecuta una acción; la transición se (2) guarda en el *replay buffer*; de ahí
 se (3) muestrea un minibatch; la red objetivo (4) estima el valor futuro que alimenta la
